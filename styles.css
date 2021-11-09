@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.content {
+  max-width: 800px;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.one {
+  background-color: aqua;
+}
+
+.two {
+  background-color: bisque;
+}
+
+.three {
+  background-color: coral;
+}
+
+h1 {
+  font-size: 60px;
+}
